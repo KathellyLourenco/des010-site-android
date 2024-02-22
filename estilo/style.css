@@ -28,7 +28,7 @@ body {
     font-family: var(--fonte-padrao)
 }
 a.externo::after {
-    content: '00A0\1F517';
+    content: '\1F517';
 }
 main p {
     margin: 15px 0px;
