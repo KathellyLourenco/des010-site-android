@@ -89,6 +89,16 @@ main {
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.496);
 }
+@media (max-width:427px) {
+    nav > a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    header {
+        padding-bottom: 10px;
+    }
+}
 main strong {
     color: var(--cor4);
     font-weight: bold;
